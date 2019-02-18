@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <!--link to CSS reset file-->
+    <!--<link rel="stylesheet" href="reset.css">-->
+    <!--link to CSS file-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!--link to bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Welcome to the Word Guess Game</title>
+</head>
+
+<body>
+    <!--First step is to create the skeleton of the web page that contains the game and includes all bootstrap divs
+with relevent headers and text-->
+    <div class=container>
+
+        <div class="jumbotron bg-light">
+            <h1 class="text-center">WORD GUESS GAME!</h1>
+            <h2 class="text-center">Guess the Surnames of some Famous Composers!</h2>
+            <div class="text-center"><button class="btn btn-warning btn-xs" onclick="playSonata()" id="moonlight">
+            Click for Sound!</button></div>
+        </div>
+
+        <div class=row>
+
+            <div class=col-lg-12>
+                <div class="card">
+                    <h3 class="card-header text-center">Press Any Key To Get Started!</h3>
+                    <div class="card-body text-center">
+                        <div class="border" id="Wins">
+                            <h1>WINS</h1>
+                        </div>
+                        <div class="border" id="Losses">
+                            <h1>LOSSES</h1>
+                        </div>
+                        <div class="border" id="Current">
+                            <h2>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</h2>
+                        </div>
+                        <div class="border" id="Remaining">
+                            <h3>NUMBER OF REMAINING GUESSES</h3>
+                        </div>
+                        <div class="border" id="Guessed">
+                            <h4>LETTERS ALREADY GUESSED</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="./assets/javascript/game.js"></script>
+    </body>
+
+</html>

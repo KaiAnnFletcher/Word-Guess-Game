@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/Notes.png");
+}
+
+.border {
+    border: black;
+    height: 60%;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.Current {
+    color: greenyellow;
+}
+
+.Remaining {
+    color: aquamarine;
+}
+
+.Guessed {
+    color: lightcoral;
+}
